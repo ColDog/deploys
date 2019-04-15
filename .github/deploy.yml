@@ -5,3 +5,10 @@ review:
   production_environment: false
   auto_merge: false
   payload: {}
+production:
+  cluster: production
+  environment: production
+  transient_environment: false
+  production_environment: true
+  auto_merge: false
+  payload: {}
