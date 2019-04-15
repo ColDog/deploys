@@ -5,6 +5,13 @@ review:
   production_environment: false
   auto_merge: false
   payload: {}
+staging:
+  cluster: staging
+  environment: staging
+  transient_environment: true
+  production_environment: false
+  auto_merge: false
+  payload: {}
 production:
   deploy_on: refs/heads/master
   cluster: production
