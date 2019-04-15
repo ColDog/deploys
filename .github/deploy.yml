@@ -6,7 +6,7 @@ review:
   auto_merge: false
   payload: {}
 production:
-  # deploy_on: refs/heads/master
+  deploy_on: refs/heads/master
   cluster: production
   environment: production
   transient_environment: false
