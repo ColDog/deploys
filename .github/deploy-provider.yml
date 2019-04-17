@@ -6,3 +6,6 @@ production:
 
 review:
   url: 'http://test.com'
+
+staging:
+  url: 'http://test.com'
