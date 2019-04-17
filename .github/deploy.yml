@@ -12,6 +12,7 @@ staging:
   production_environment: false
   auto_merge: false
   payload: {}
+  required_contexts: []
 production:
   deploy_on: refs/heads/master
   cluster: production
