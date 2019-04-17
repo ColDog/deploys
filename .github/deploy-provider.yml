@@ -1,4 +1,4 @@
-deploy_script: >
+deploy_script: |
   git clone https://x-access-token:${GITHUB_TOKEN}@github.com/${OWNER}/${REPO}.git
   cd deploys
   ls -la
