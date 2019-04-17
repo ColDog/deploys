@@ -1,0 +1,8 @@
+deploy_script: 'echo deploy'
+remove_script: 'echo remove'
+
+production:
+  url: 'http://test.com'
+
+review:
+  url: 'http://test.com'
