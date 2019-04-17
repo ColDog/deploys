@@ -1,4 +1,8 @@
-deploy_script: 'echo deploy'
+deploy_script: >
+  git clone https://x-access-token:${GITHUB_TOKEN}@github.com/${OWNER}/${REPO}.git
+  cd deploys
+  ls -la
+
 remove_script: 'echo remove'
 
 production:
