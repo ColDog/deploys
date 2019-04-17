@@ -5,6 +5,7 @@ review:
   production_environment: false
   auto_merge: false
   payload: {}
+  required_contexts: []
 staging:
   cluster: staging
   environment: staging
