@@ -15,7 +15,7 @@ staging:
   payload: {}
   required_contexts: []
 production:
-  deploy_on: refs/heads/master
+  auto_deploy_on: refs/heads/master
   cluster: production
   environment: production
   transient_environment: false
